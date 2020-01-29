@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "666314115272",
+    "firebase_url": "https://bmrapp-ff0f8.firebaseio.com",
+    "project_id": "bmrapp-ff0f8",
+    "storage_bucket": "bmrapp-ff0f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666314115272:android:1ee933852d3ab733fa3dfd",
+        "android_client_info": {
+          "package_name": "com.example.bmr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666314115272-p9b9jtj5le3pt7q1evgfhnrkjndgdpbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbqyW6ikB2Hg8hI7WQuTp2XokqdH3Oe6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666314115272-p9b9jtj5le3pt7q1evgfhnrkjndgdpbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoard.NewDash">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#813D7E"
+        android:clickable="false"
+        android:freezesText="true"
+        android:includeFontPadding="false"
+        android:textColor="#EDEDF0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@mipmap/karnatakalogo" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="287dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:text="Karnataka Mental Health Management System "
+        android:textColor="#EEEBF0"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/border_style"/>
+
+    <Button
+        android:id="@+id/btnBarcode"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginRight="167dp"
+        android:background="@drawable/button_rounded"
+        android:text="SCAN BARCODE"
+        android:textColor="#F8F5F8"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="168dp"
+        android:background="@drawable/button_rounded"
+        android:text="Out-Patient"
+        android:textColor="#F8F5F8"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginLeft="173dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:background="@drawable/button_rounded"
+        android:text="In-Patient"
+        android:textColor="#FAF8FA"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AddPatient"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/button_rounded"
+        android:text="Add Patient"
+        android:textColor="#FAF8FA"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/border_style">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/button37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_rounded"
+                        android:text="Waiting" />
+
+                    <Button
+                        android:id="@+id/button25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Prashant Singh" />
+
+                    <Button
+                        android:id="@+id/button36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Sonu kumar"/>
+                    <Button
+                        android:id="@+id/button35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Button" />
+
+                    <Button
+                        android:id="@+id/button33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Ajay kumar" />
+
+                    <Button
+                        android:id="@+id/button34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Akash rathore" />
+
+                    <Button
+                        android:id="@+id/button32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Kartik" />
+
+                    <Button
+                        android:id="@+id/button29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Rohan soni" />
+
+                    <Button
+                        android:id="@+id/button31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Priya kumari" />
+
+                    <Button
+                        android:id="@+id/button30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Vikas" />
+
+                    <Button
+                        android:id="@+id/button26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="KK singh" />
+
+                    <Button
+                        android:id="@+id/button27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Nitesh" />
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Sanjay" />
+
+                    <Button
+                        android:id="@+id/button28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Rakesh" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="430dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/button25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_rounded"
+                        android:text="Waiting"
+                        android:textColor="#F4F3F5" />
+
+                    <Button
+                        android:id="@+id/button37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Prashant Singh" />
+
+                    <Button
+                        android:id="@+id/button36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Sonu kumar"/>
+                    <Button
+                        android:id="@+id/button35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Button" />
+
+                    <Button
+                        android:id="@+id/button33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Ajay kumar" />
+
+                    <Button
+                        android:id="@+id/button34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Akash rathore" />
+
+                    <Button
+                        android:id="@+id/button32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Kartik" />
+
+                    <Button
+                        android:id="@+id/button29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Rohan soni" />
+
+                    <Button
+                        android:id="@+id/button31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Priya kumari" />
+
+                    <Button
+                        android:id="@+id/button30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Vikas" />
+
+                    <Button
+                        android:id="@+id/button26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="KK singh" />
+
+                    <Button
+                        android:id="@+id/button27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Nitesh" />
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Sanjay" />
+
+                    <Button
+                        android:id="@+id/button28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Rakesh" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="430dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/button43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_rounded"
+                        android:text="Completed"
+                        android:textColor="#F8F7F8" />
+
+                    <Button
+                        android:id="@+id/button52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Nitesh kumar" />
+
+                    <Button
+                        android:id="@+id/button50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="parteek" />
+
+                    <Button
+                        android:id="@+id/button44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Raju rastogi" />
+
+                    <Button
+                        android:id="@+id/button56"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/border_style"
+                        android:layout_height="wrap_content"
+                        android:text="Harshit" />
+
+                    <Button
+                        android:id="@+id/button55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Rishab" />
+
+                    <Button
+                        android:id="@+id/button54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Pintu" />
+
+                    <Button
+                        android:id="@+id/button48"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Janish" />
+
+                    <Button
+                        android:id="@+id/button53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Praveen" />
+
+                    <Button
+                        android:id="@+id/button51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Mahinder" />
+
+                    <Button
+                        android:id="@+id/button47"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Anjali" />
+
+                    <Button
+                        android:id="@+id/button46"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="shivani" />
+
+                    <Button
+                        android:id="@+id/button49"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Jay singh" />
+
+                    <Button
+                        android:id="@+id/button45"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_style"
+                        android:text="Roshan" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

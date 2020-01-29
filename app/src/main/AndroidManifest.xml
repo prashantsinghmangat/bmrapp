@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bmr">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/karnatakalogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DashBoard.NavigationDrawer"/>
+        <activity android:name=".IpBmrFolder.IpPatient" />
+        <activity android:name=".DashBoard.AddPatients" />
+        <activity android:name=".IpBmrFolder.IpBmr" />
+        <activity android:name=".IpBmrFolder.RestraintIpbmr" />
+        <activity android:name=".IpBmrFolder.TherapyIpbmr" />
+        <activity android:name=".IpBmrFolder.AssessementIpbmr" />
+        <activity android:name=".OpBmrFolder.RestraintOpbmr" />
+        <activity android:name=".OpBmrFolder.TherapyOpbmr" />
+        <activity android:name=".OpBmrFolder.assessementOpbmr" />
+        <activity android:name=".DashBoard.EmailBarcode" />
+        <activity android:name=".DashBoard.ScanedBarcode" />
+        <activity android:name=".OpBmrFolder.OpBmr1" />
+        <activity android:name=".DashBoard.PatientDetails" />
+        <activity android:name=".OpBmrFolder.OpBmr" />
+        <activity android:name=".DashBoard.NewDash" />
+        <activity android:name=".login.ForgetPass" />
+        <activity android:name=".login.SelectMhe" />
+        <activity android:name=".login.MainActivity" />
+        <activity android:name=".login.SplashScreenbmr">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
